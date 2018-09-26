@@ -20,6 +20,25 @@ main {
   padding: 20px;
 }
 
+p {
+  font-size: 1em;
+  line-height: 1.375em;
+}
+
 .cards {
   background: #eee;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid;
+  outline: 5px solid #aaa;
+  max-width: 29.375em;
+  max-height: 18.75em;
+  overflow: hidden;
+}
+
+.card__title {
+  font-size: 1.375em;
+  line-height: 1.375em;
 }
